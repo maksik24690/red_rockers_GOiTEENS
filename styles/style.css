@@ -48,7 +48,7 @@ li {
   margin: 0 auto;
   margin-top: 5px;
 }
-.button_login input{
+.button_login input,.js-button-campaign{
   width: 175px;
   height: 52px;
   background: #D2AC47;  
@@ -84,7 +84,7 @@ li {
     height: 93px;
     margin-top: 3px;
   }
-  .button_login input{
+  .button_login input,.js-button-campaign{
     margin-left: 394px;
   }
   .button_login{
@@ -110,7 +110,7 @@ li {
     margin-top: 19px;
     font-size: 24px;
   }
-  .button_login input{
+  .button_login input,.js-button-campaign{
     margin-left: 878px;
   }
   .button_login{
