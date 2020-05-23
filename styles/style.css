@@ -22,7 +22,7 @@ li {
 }
 .photo_i_text_i_button{
   margin: 0 auto;
-  margin-top:100px;
+  margin-top:91px;
 }
 .photo_burning{
   width: 320px;
@@ -70,6 +70,9 @@ li {
 
 
 @media screen and (min-width:768px){
+  .photo_i_text_i_button{
+    margin-top: 103px;
+  }
   .photo_burning{
     width: 768px;
     height: 240px;
@@ -94,6 +97,9 @@ li {
 }
 
 @media screen and (min-width:1280px){
+  .photo_i_text_i_button{
+    margin-top: 145px;
+  }
   .photo_burning{
     width: 1280px;
     height: 318px;
