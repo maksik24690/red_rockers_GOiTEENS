@@ -3,20 +3,141 @@
 *::after {
   box-sizing: border-box;
 }
-
 html, body, ul, ol, li, form, fieldset, legend {
   margin: 0;
   padding: 0;
 }
-
 h1, h2, h3, h4, h5, h6, p {
   margin-top: 0;
 }
-
 fieldset, img {
   border: 0;
 }
-
 li {
   list-style: none;
+}
+.box_manzel{
+  width: 320px;
+}
+.text_manzel{
+  margin-left: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.01em; 
+  color: #000000;
+}
+.photo_manzel{
+  width: 280px;
+  height: 280px;
+  margin-left: 20px;
+  background-image: url(../images/mobile/Rectangle\ 3\ \(2\).png);
+  margin-top: 20px;
+}
+.manzel_text_stick{
+  margin-left: 20px;
+  width: 280px;
+  height: 822px;
+  margin-top: 40px;
+}
+.manzel_stick{
+  margin-left: 1px;
+  width: 73px;
+  height: 2px;
+  background-color:#D2AC47;;
+}
+.manzel_text{
+  margin-top: 20px;
+}
+.text1_manzel{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  margin-top: 20px;
+}
+.text2_manzel{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  margin-top: 20px;
+}
+.manzel_text1 {
+  display: none;
+}
+
+
+@media screen and (min-width:768px){
+  .photo_manzel{
+    width: 511px;
+    background-image: url(../images/tablet/img.png);
+    margin-left: 129px;
+  }
+  .text_manzel{
+    display: none;
+  }
+  .manzel_stick{
+    display: none;
+  }
+  .manzel_text1 {
+    display: block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.01em; 
+    color: #000000;
+  }
+  .manzel_text_stick{
+    width: 511px;
+    height: 506px;
+    margin-left: 129px;
+  }
+}
+
+
+
+@media screen and (min-width:1280px){
+  .photo_manzel{
+    width: 513px;
+    background-image: url(../images/desktop/img.png);
+    margin-left: 143px;
+    height: 548px;
+  }
+  .text_manzel{
+    display: none;
+  }
+  .manzel_stick{
+    display: none;
+  }
+  .manzel_text1 {
+    display: block;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 28px;
+    letter-spacing: 0.01em; 
+    color: #000000;
+  }
+  .manzel_text_stick{
+    width: 379px;
+    height: 592px;
+    margin-left: 102px;
+
+  }
+  .box_manzel{
+    width: auto;
+    display: flex;
+  }
 }
