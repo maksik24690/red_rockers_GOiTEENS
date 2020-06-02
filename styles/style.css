@@ -20,6 +20,13 @@ fieldset, img {
 li {
   list-style: none;
 }
+
+.global_wrapper{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 .div_tarasik{
   margin-left: 20px;
   
