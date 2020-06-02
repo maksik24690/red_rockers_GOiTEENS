@@ -378,6 +378,85 @@ color: #757575;
   }
 }
 
+/*TESLIUK*/
+.photo_i_text_i_button{
+  margin: 0 auto;
+  margin-top:91px;
+}
+.photo_burning{
+  width: 320px;
+  height: 340px;
+  background-image: url(../images/mobile/img_3.png);
+}
+.text_blok{
+  margin-top: -45px;
+  width: 280px;
+  height: 273px;
+  background: #F7F7F7;
+  margin:0 auto;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.04);
+}
+.tx{
+  width: 215px;
+  height: 217px;
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 31px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+.button_login input,.js-button-campaign{
+  width: 175px;
+  height: 52px;
+  background: #D2AC47;  
+  border: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  color: #FFFFFF;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.16), 1px 1px 6px rgba(0, 0, 0, 0.08);
+}
+.button_login{
+  width: 100%;
+  text-align: center;
+  margin-top: -23px;
+}
+
+
+
+
+@media screen and (min-width:768px){
+  .photo_i_text_i_button{
+    margin-top: 103px;
+  }
+  .photo_burning{
+    width: 768px;
+    height: 240px;
+    background-image: url(../images/tablet/img_3.png);
+  }
+  .text_blok{
+    width: 511px;
+    height: 128px;
+  }
+  .tx{
+    width: 428px;
+    height: 93px;
+    margin-top: 3px;
+  }
+  .button_login input,.js-button-campaign{
+    margin-left: 394px;
+  }
+  .button_login{
+    text-align: left;
+    
+  }
+}
+
 
 
 @media screen and (min-width:1280px){
@@ -416,4 +495,33 @@ color: #757575;
     background-color: #F7F7F7;
     margin-top: 100px;
   }
+
+  .photo_i_text_i_button{
+    margin-top: 145px;
+  }
+  .photo_burning{
+    width: 1280px;
+    height: 318px;
+    background-image: url(../images/desktop/img_3.png);
+  }
+  .text_blok{
+    width: 688px;
+    height: 184px;
+    margin-left: 450px;
+  }
+  .tx{
+    width: 532px;
+    height: 102px;
+    margin-top: 19px;
+    font-size: 24px;
+  }
+  .button_login input,.js-button-campaign{
+    margin-left: 878px;
+  }
+  .button_login{
+    text-align: left;
+    
+  }
+  
 }
+/*TESLIUK end*/
