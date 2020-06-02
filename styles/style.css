@@ -200,7 +200,7 @@ margin-top: 80px;
   width: 72px;
   position: absolute;
   left: 130px;
-  top: 350px;
+  top: 315px;;
   }
    
   .h1_tarasik{
@@ -212,10 +212,10 @@ line-height: 42px;
 letter-spacing: 0.01em;
 
 color: #212121;
-
+width: 350px;
 position: absolute;
 left: 230px;
-top: 350px;
+top: 305px;
   }
   .p_tarasik{
     
@@ -244,7 +244,7 @@ margin-left: 728px;
 background-image: url(../images/desktop/Rectangle\ 9.png);
   }
 .h1_tarasik{
-  top: 60px;
+  top: 0;
   
   font-family: Raleway;
 font-style: normal;
@@ -264,14 +264,14 @@ color: #212121;
   color: #D2AC47;
   height: 2px;
   width: 72px;
-  top: 60px;
+  top: 10px;
 }
 .p_tarasik{
   width: 379px;
 margin-left: 246px;
 margin-top: 0px;
 position: absolute;
-top: 150px;
+top: 102px;
   font-family: Roboto;
 font-style: normal;
 font-weight: normal;
